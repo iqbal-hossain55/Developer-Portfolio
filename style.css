@@ -1,0 +1,90 @@
+body{
+    font-family: open sans-serif;
+    margin: 0;
+}
+
+.red-color{
+    color: red;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 150px;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 150px;
+}
+
+.half-width{
+    width: 50%;
+    font-size: 25px;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.half-width img{
+    width: 82%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+#full-stack{
+    width: 50%;
+    font-size: 22.5px;
+    margin-left: 5%;
+    text-align: justify;
+    box-shadow: 10px 10px 40px tomato;
+    padding: 2%;
+    border-image: linear-gradient(tomato,orange);
+    border-left: 10px solid;
+    border-image-slice: 1;
+}
+
+#baby-web-dev{
+    width: 50%;
+    font-size: 22.5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    box-shadow: 10px 10px 40px tomato;
+    padding: 2%;
+    border-image: linear-gradient(blue,cyan);
+    border-left: 10px dashed;
+    border-image-slice: 1;
+}
+
+#size{
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+.hire-me-button{
+    text-decoration: none;
+    background-image: linear-gradient(Orange,red);
+    color: white;
+    padding: 1.5%;
+    border-radius: 5px;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+}
